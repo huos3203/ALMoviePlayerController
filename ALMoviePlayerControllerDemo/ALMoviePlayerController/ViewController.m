@@ -57,7 +57,7 @@
     [self.view addSubview:self.moviePlayer.view];
     
     //THEN set contentURL
-    [self.moviePlayer setContentURL:[NSURL URLWithString:@"http://archive.org/download/WaltDisneyCartoons-MickeyMouseMinnieMouseDonaldDuckGoofyAndPluto/WaltDisneyCartoons-MickeyMouseMinnieMouseDonaldDuckGoofyAndPluto-HawaiianHoliday1937-Video.mp4"]];
+    [self.moviePlayer setContentURL:[NSURL URLWithString:@"http://vms.iuoooo.com/data/video/201704/27/59019deb-9b96-91a3-48dc-acffb398/transcode_f1cbb51b-34fa-6a9c-3e59-818b2ff1.mp4"]];
     
     //delay initial load so statusBarOrientation returns correct value
     double delayInSeconds = 0.3;
@@ -104,7 +104,7 @@
 
 - (void)remoteFile {
     [self.moviePlayer stop];
-    [self.moviePlayer setContentURL:[NSURL URLWithString:@"http://archive.org/download/WaltDisneyCartoons-MickeyMouseMinnieMouseDonaldDuckGoofyAndPluto/WaltDisneyCartoons-MickeyMouseMinnieMouseDonaldDuckGoofyAndPluto-HawaiianHoliday1937-Video.mp4"]];
+    [self.moviePlayer setContentURL:[NSURL URLWithString:@"http://vms.iuoooo.com/data/video/201704/27/59019deb-9b96-91a3-48dc-acffb398/transcode_f1cbb51b-34fa-6a9c-3e59-818b2ff1.mp4"]];
     [self.moviePlayer play];
 }
 
